@@ -1,4 +1,4 @@
-# Scaler Matrimony
+# Scaler Updates
 
 Scaler Update is a MERN-stack sample application to connect users for updating . Users can register, login, create profiles, search and filter profiles by various fields, and send connection requests.
 
