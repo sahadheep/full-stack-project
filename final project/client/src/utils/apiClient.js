@@ -1,6 +1,6 @@
 import axios from 'axios';
 import storage from './storageService';
-
+const BASE_API_URL = process.env.REACT_APP_API_URL ? process.env.REACT_APP_API_URL + '/api' : '/api';
 const api = axios.create({
   baseURL: process.env.REACT_APP_API_URL || '/api',
   timeout: 15000,
