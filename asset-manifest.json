@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/full-stack-project/static/js/main.a534050c.js",
+    "index.html": "/full-stack-project/index.html",
+    "main.a534050c.js.map": "/full-stack-project/static/js/main.a534050c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.a534050c.js"
+  ]
+}
