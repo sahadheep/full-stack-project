@@ -1,0 +1,5 @@
+service_name: scaler-matrimony
+exporter:
+  otlp:
+    endpoint: ""
+notes: "Optional OpenTelemetry configuration. Fill exporter endpoint for APM backend."

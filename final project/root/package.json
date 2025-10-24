@@ -1,0 +1,13 @@
+{
+  "name": "scaler-matrimony",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run dev --prefix server\" \"npm start --prefix client\"",
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm start --prefix client\"",
+    "build": "npm run build --prefix client && docker build -f server/Dockerfile -t scaler-matrimony-server ./server && docker build -f client/Dockerfile -t scaler-matrimony-client ./client"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

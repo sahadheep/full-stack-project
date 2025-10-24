@@ -1,0 +1,1 @@
+server/ (Express API) | client/ (React) | docker-compose.yml | README.md
